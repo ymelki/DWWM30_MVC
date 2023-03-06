@@ -12,3 +12,13 @@ function getAnnonces(){
     include __DIR__.'/../../templates/liste_annonce.php';
 
 }
+
+function  getUneannonces(){
+    // appel du modele
+    include __DIR__.'/../Entity/Annonce.php';
+    $id=$_GET['id'];
+    $tab=liste_une_annonce($id);
+    var_dump($tab);
+    include __DIR__.'/../../templates/uneannonce.php';
+
+}

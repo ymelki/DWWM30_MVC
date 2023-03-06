@@ -20,6 +20,8 @@
         <div class="card-body">
             <h5 class="card-title">
 
+                <a href="/uneannonce?id=<?=$uneannonce['id']?>">Detail annonce</a>
+
                 <a href=une_annonce.php?id=<?=$uneannonce['id']?>>
                 <?=$uneannonce['titre']
                 //URL : protocole http

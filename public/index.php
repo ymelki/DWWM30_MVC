@@ -17,3 +17,9 @@ if ($_SERVER['PATH_INFO']=="/supprimer_annonces"){
 
 
 }
+elseif( $_SERVER['PATH_INFO']=="/uneannonce") {
+    echo "page une annonce !";
+    include __DIR__.'/../src/Controller/AnnoncesController.php';
+    getUneannonces();
+
+}
