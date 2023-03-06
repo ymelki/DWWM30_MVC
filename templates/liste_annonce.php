@@ -35,6 +35,11 @@
             </h5>
             <p class="card-text"><?=$uneannonce['description'] ?>
             <br />
+
+
+            
+            <a href="/supprimer?id=<?=$uneannonce['id']?>">SUPPRIMER PRODUIT</a>
+
             <a href="supprimer.php?id=<?=$uneannonce['id']?>">
             SUPPRIMER CE PRODUIT
             </a>
